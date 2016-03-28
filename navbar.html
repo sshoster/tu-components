@@ -1,11 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Navbar</title>
-    <link rel="stylesheet" href="navbar.css">
-</head>
-<body>
+<html>
+    <head>
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      <style>
+        .Navbar {
+          font-family: Open Sans;
+          background-color: #f7f7f9;
+          border-radius: 5px 5px;
+        }
+        .Navbar-nav,
+        .Navbar-form {
+          list-style-type: none;
+          display: inline-flex;
+        }
+        .Navbar-nav-link,
+        .Navbar-brand {
+          text-decoration: none;
+          margin-left: 18px;
+          font-size: 18px;
+        }
+        .Navbar-brand {
+          font-weight: bold;
+          color: black;
+        }
+        .Navbar-nav-link {
+          color: rgba(0,0,0,.3);
+        }
+        .Navbar-nav-link:hover,
+        .current .Navbar-nav-link {
+          color: black;
+        }
+        .Navbar-form {
+          margin-top: 12px;
+          float: right;
+          margin-right: 18px;
+          height: 30px;
+        }
+        .Navbar-form-input,
+        .Navbar-form-btn {
+          border-radius: 5px 5px;
+          height: inherit;
 
-</body>
+        }
+        .Navbar-form-input {
+          padding: 10px;
+        }
+        .Navbar-form-btn {
+          border: 1px solid #048A04;
+          color: #048A04;
+          background-color: inherit;
+        }
+        .Navbar-form-btn:hover {
+          color: white;
+          background-color: #048A04;
+        }
+      </style>
+
+    </head>
+    <body>
+      <nav class="Navbar">
+          <a class="Navbar-brand" href="#">Navbar</a>
+          <ul class="Navbar-nav">
+            <li class="Navbar-nav-item current">
+              <a class="Navbar-nav-link" href="#">Home </a>
+            </li>
+            <li class="Navbar-nav-item">
+              <a class="Navbar-nav-link" href="#">Features</a>
+            </li>
+            <li class="Navbar-nav-item">
+              <a class="Navbar-nav-link" href="#">Pricing</a>
+            </li>
+            <li class="Navbar-nav-item">
+              <a class="Navbar-nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <form class="Navbar-form">
+            <input class="Navbar-form-input" type="text" placeholder="Search">
+            <button class="Navbar-form-btn" type="submit">Search</button>
+          </form>
+        </nav>
+      </body>
 </html>
