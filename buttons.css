@@ -1,0 +1,93 @@
+.Button--primary {
+  background: hsl(208, 98%, 43%);
+  border-color: hsl(208, 98%, 43%);
+}
+
+.Button--primary:hover {
+  background: hsl(208, 98%, 35%);
+}
+
+.Button--primary ,
+.Button--link,
+.Button--danger,
+.Button--warning,
+.Button--info,
+.Button--success,
+.Button--secondary {
+  border-radius: 5px ;
+  height: auto;
+  color: white;
+  border: 1px solid;
+  font: 13.3333px Arial;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px 16px 8px 16px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0.02%;
+}
+
+
+.Button--secondary {
+  color: black;
+  background: white;
+  border-color: hsl(0, 0%, 80%);
+}
+
+.Button--secondary:hover {
+ background: hsl(0, 0%, 80%);
+}
+
+.Button--success {
+ background: hsl(120, 39%, 54%);
+ border-color: hsl(120, 39%, 54%);
+}
+
+.Button--success:hover {
+ background: hsl(120, 39%, 46%);
+}
+
+.Button--info {
+  background:hsl(194, 66%, 61%);
+  border-color: hsl(194, 66%, 61%);
+}
+
+.Button--info:hover {
+  background:hsl(194, 66%, 53%);
+}
+
+.Button--warning {
+  background:hsl(35, 84%, 62%);
+  border-color: hsl(35, 84%, 62%);
+}
+
+.Button--warning:hover {
+  background:hsl(35, 84%, 54%);
+}
+
+.Button--danger {
+  background:hsl(2, 64%, 58%);
+  border-color:hsl(2, 64%, 58%);
+}
+
+.Button--danger:hover {
+  background:hsl(2, 64%, 50%);
+}
+
+.Button--link {
+  background: transparent;
+  border-color:transparent;
+  color: hsl(208, 98%, 43%);
+}
+
+.Button--link:hover {
+  color: hsl(208, 98%, 35%);
+  text-decoration: underline;
+}
+a {
+  all: none;
+  clear: all;
+}
