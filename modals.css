@@ -1,0 +1,59 @@
+html, body{
+  height: 100%;
+  padding-top: 0;
+  }
+.background{
+  background-color: gray;
+  height: 100%;
+}
+.modal{
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  max-width: 80%;
+  min-width: 40%;
+  transform: translateX(-50%);
+  word-wrap: break-word;
+  display: none;
+  }
+  .modal:target {
+    display: block;
+  }
+.modal-header{
+  border-bottom-style: inset;
+  border-bottom-width: thin;
+  border-color: hsl(0, 0%, 66%);
+  width: 100%;
+  height: 40;
+}
+.modal-title{
+  float: left;
+  padding-left: 10;
+  padding-top: 5;
+  font-size: 20;
+}
+.modal-close{
+  float: right;
+  padding-right: 10;
+  padding-top: 10;
+}
+a:link {
+    text-decoration: none;
+}
+.modal-main{
+  padding-left: 5;
+  padding-top: 10;
+  padding-bottom: 10;
+}
+.modal-footer{
+  border-top-style: inset;
+  border-top-width: thin;
+  border-color: hsl(0, 0%, 66%);
+  height: 40;
+}
+.modal-buttons{
+  float: right;
+  padding-right: 10;
+  padding-top: 10;
+}
